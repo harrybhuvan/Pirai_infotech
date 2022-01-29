@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.master_image{
+    border-radius: 1px;
+
+}
+.map{
+    margin:50px auto;
+    max-width: auto;
+    padding: 10px;
+}
+.chat_icon{
+    position: fixed;
+    right: 30px;
+    bottom: 0;
+    font-size: 80px;
+    color: rgb(59, 55, 55);
+    cursor: pointer;
+    z-index: 1000;
+}
+.chat_box{
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+    width: 400px;
+    height: 75vh;
+    background-color: rgb(51, 54, 53);
+    z-index: 1000%;
+    transition: all 0.3s ease-out;
+    transform:scaleY(0);
+}
+.chat_box.active{
+    transform: scaleY(1);
+}
+.jumbotron{
+    background-color: rgb(253, 177, 106);
+    padding: 30px;
+    color: white;
+}
+.navbar{
+    background: rgb(255, 165, 81);
+    color: white;
+}
+.signup{
+    background-color: rgb(128, 63, 3);
+}
+.nav-link:link{
+    color: rgb(255, 255, 255);
+}
+.nav-link:visited{
+    color: rgb(255, 255, 255);
+}
+.nav-link:hover{
+    color: rgb(250, 94, 94);
+}
+.nav-link:active{
+    color: rgb(128, 63, 3);
+}
+.row-content{
+    margin:50px auto;
+    padding: 30px 0px 30px 0px;
+    border-bottom: 1px ridge ;
+}
+.footer{
+    background-color: rgb(253, 177, 106);
+}
+.social{
+    color: rgb(128, 63, 3);
+    width: 30%;
+}
+.hits{
+    background-color: rgba(255, 197, 143, 0.452);
+    border-radius: 200%;
+    font-family: monospace;
+    color: rgb(141, 65, 3);
+}
+.heading{
+    font-family:serif;
+    font-weight: lighter;
+    padding: 10px;
+}
+.title{
+    color: rgb(128, 63, 3);
+}
